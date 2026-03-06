@@ -1,54 +1,61 @@
-version: '3.9'
-
 services:
-  # ── PostgreSQL ─────────────────────────────────────────────────────────────
+
+  # ── PostgreSQL ──────────────────────────────────────────────────────────────
   postgres:
     image: postgres:15
     restart: unless-stopped
     ports:
-      - '5432:5432'
+      - "5433:5432"
     environment:
-      POSTGRES_USER: postgres
+      POSTGRES_USER:     postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: customer_db
+      POSTGRES_DB:       customer_db
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
     healthcheck:
-      test: ['CMD-SHELL', 'pg_isready -U postgres -d customer_db']
+      test: ["CMD-SHELL", "pg_isready -U postgres -d customer_db"]
       interval: 5s
       timeout: 5s
-      retries: 10
+      retries: 15
+      start_period: 10s
 
-  # ── Flask mock-server ──────────────────────────────────────────────────────
+  # ── Flask mock-server ───────────────────────────────────────────────────────
   mock-server:
     build: ./mock-server
     restart: unless-stopped
     ports:
-      - '5000:5000'
+      - "5001:5000"
+    networks:
+      - app-network
     healthcheck:
-      test:
-        [
-          'CMD-SHELL',
-          'python -c "import urllib.request; urllib.request.urlopen(''http://localhost:5000/api/health'')"',
-        ]
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:5000/api/health')\""]
       interval: 10s
       timeout: 5s
       retries: 5
+      start_period: 10s
 
-  # ── FastAPI pipeline-service ───────────────────────────────────────────────
+  # ── FastAPI pipeline-service ────────────────────────────────────────────────
   pipeline-service:
     build: ./pipeline-service
     restart: unless-stopped
     ports:
-      - '8000:8000'
+      - "8000:8000"
+    networks:
+      - app-network
     depends_on:
       postgres:
         condition: service_healthy
       mock-server:
         condition: service_healthy
     environment:
-      DATABASE_URL: postgresql://postgres:password@postgres:5432/customer_db
+      DATABASE_URL:   postgresql://postgres:password@postgres:5432/customer_db
       FLASK_BASE_URL: http://mock-server:5000
+
+networks:
+  app-network:
+    driver: bridge
 
 volumes:
   postgres_data:
