@@ -9,9 +9,10 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-# setuptools must be installed FIRST so pkg_resources is available for dlt
 RUN pip install --no-cache-dir setuptools wheel && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir -r requirements.txt && \
+    sed -i 's/import pkg_resources/import importlib.metadata as pkg_resources/' \
+        /usr/local/lib/python3.12/site-packages/dlt/helpers/dbt/__init__.py
 
 COPY main.py models.py pipeline.py ./
 
