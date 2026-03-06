@@ -1,0 +1,427 @@
+[
+  {
+    "customer_id": "CUST-001",
+    "first_name": "Alice",
+    "last_name": "Johnson",
+    "email": "alice.johnson@email.com",
+    "phone": "+1-555-101-2001",
+    "address": {
+      "street": "123 Maple St",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701",
+      "country": "US"
+    },
+    "date_of_birth": "1990-03-14",
+    "account_balance": 4821.50,
+    "created_at": "2021-01-10T08:23:00Z"
+  },
+  {
+    "customer_id": "CUST-002",
+    "first_name": "Bob",
+    "last_name": "Martinez",
+    "email": "bob.martinez@email.com",
+    "phone": "+1-555-102-2002",
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80201",
+      "country": "US"
+    },
+    "date_of_birth": "1985-07-22",
+    "account_balance": 12340.75,
+    "created_at": "2021-02-14T10:15:00Z"
+  },
+  {
+    "customer_id": "CUST-003",
+    "first_name": "Carol",
+    "last_name": "Williams",
+    "email": "carol.williams@email.com",
+    "phone": "+1-555-103-2003",
+    "address": {
+      "street": "789 Pine Rd",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101",
+      "country": "US"
+    },
+    "date_of_birth": "1992-11-05",
+    "account_balance": 731.20,
+    "created_at": "2021-03-01T14:45:00Z"
+  },
+  {
+    "customer_id": "CUST-004",
+    "first_name": "David",
+    "last_name": "Chen",
+    "email": "david.chen@email.com",
+    "phone": "+1-555-104-2004",
+    "address": {
+      "street": "321 Elm Blvd",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94101",
+      "country": "US"
+    },
+    "date_of_birth": "1988-05-18",
+    "account_balance": 29500.00,
+    "created_at": "2021-03-20T09:00:00Z"
+  },
+  {
+    "customer_id": "CUST-005",
+    "first_name": "Eva",
+    "last_name": "Brown",
+    "email": "eva.brown@email.com",
+    "phone": "+1-555-105-2005",
+    "address": {
+      "street": "654 Birch Ln",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60601",
+      "country": "US"
+    },
+    "date_of_birth": "1995-09-30",
+    "account_balance": 5670.10,
+    "created_at": "2021-04-05T11:30:00Z"
+  },
+  {
+    "customer_id": "CUST-006",
+    "first_name": "Frank",
+    "last_name": "Davis",
+    "email": "frank.davis@email.com",
+    "phone": "+1-555-106-2006",
+    "address": {
+      "street": "987 Cedar Way",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33101",
+      "country": "US"
+    },
+    "date_of_birth": "1980-12-01",
+    "account_balance": 8150.45,
+    "created_at": "2021-04-18T16:00:00Z"
+  },
+  {
+    "customer_id": "CUST-007",
+    "first_name": "Grace",
+    "last_name": "Wilson",
+    "email": "grace.wilson@email.com",
+    "phone": "+1-555-107-2007",
+    "address": {
+      "street": "147 Walnut St",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02101",
+      "country": "US"
+    },
+    "date_of_birth": "1993-02-28",
+    "account_balance": 3215.80,
+    "created_at": "2021-05-10T08:45:00Z"
+  },
+  {
+    "customer_id": "CUST-008",
+    "first_name": "Henry",
+    "last_name": "Taylor",
+    "email": "henry.taylor@email.com",
+    "phone": "+1-555-108-2008",
+    "address": {
+      "street": "258 Spruce Dr",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97201",
+      "country": "US"
+    },
+    "date_of_birth": "1987-06-15",
+    "account_balance": 17890.30,
+    "created_at": "2021-05-25T13:20:00Z"
+  },
+  {
+    "customer_id": "CUST-009",
+    "first_name": "Isla",
+    "last_name": "Anderson",
+    "email": "isla.anderson@email.com",
+    "phone": "+1-555-109-2009",
+    "address": {
+      "street": "369 Ash Ct",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85001",
+      "country": "US"
+    },
+    "date_of_birth": "1991-08-09",
+    "account_balance": 620.00,
+    "created_at": "2021-06-07T10:00:00Z"
+  },
+  {
+    "customer_id": "CUST-010",
+    "first_name": "James",
+    "last_name": "Thomas",
+    "email": "james.thomas@email.com",
+    "phone": "+1-555-110-2010",
+    "address": {
+      "street": "741 Poplar Ave",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37201",
+      "country": "US"
+    },
+    "date_of_birth": "1983-04-25",
+    "account_balance": 54230.60,
+    "created_at": "2021-06-20T15:10:00Z"
+  },
+  {
+    "customer_id": "CUST-011",
+    "first_name": "Karen",
+    "last_name": "Jackson",
+    "email": "karen.jackson@email.com",
+    "phone": "+1-555-111-2011",
+    "address": {
+      "street": "852 Willow Pl",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30301",
+      "country": "US"
+    },
+    "date_of_birth": "1996-10-12",
+    "account_balance": 2100.90,
+    "created_at": "2021-07-03T09:30:00Z"
+  },
+  {
+    "customer_id": "CUST-012",
+    "first_name": "Liam",
+    "last_name": "White",
+    "email": "liam.white@email.com",
+    "phone": "+1-555-112-2012",
+    "address": {
+      "street": "963 Magnolia Blvd",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75201",
+      "country": "US"
+    },
+    "date_of_birth": "1989-01-07",
+    "account_balance": 9870.15,
+    "created_at": "2021-07-19T11:45:00Z"
+  },
+  {
+    "customer_id": "CUST-013",
+    "first_name": "Mia",
+    "last_name": "Harris",
+    "email": "mia.harris@email.com",
+    "phone": "+1-555-113-2013",
+    "address": {
+      "street": "159 Sycamore Rd",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip": "55401",
+      "country": "US"
+    },
+    "date_of_birth": "1994-03-21",
+    "account_balance": 3345.00,
+    "created_at": "2021-08-02T14:00:00Z"
+  },
+  {
+    "customer_id": "CUST-014",
+    "first_name": "Noah",
+    "last_name": "Martin",
+    "email": "noah.martin@email.com",
+    "phone": "+1-555-114-2014",
+    "address": {
+      "street": "357 Redwood Way",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zip": "89101",
+      "country": "US"
+    },
+    "date_of_birth": "1986-09-03",
+    "account_balance": 11250.75,
+    "created_at": "2021-08-15T08:15:00Z"
+  },
+  {
+    "customer_id": "CUST-015",
+    "first_name": "Olivia",
+    "last_name": "Garcia",
+    "email": "olivia.garcia@email.com",
+    "phone": "+1-555-115-2015",
+    "address": {
+      "street": "468 Chestnut St",
+      "city": "San Diego",
+      "state": "CA",
+      "zip": "92101",
+      "country": "US"
+    },
+    "date_of_birth": "1997-12-17",
+    "account_balance": 780.40,
+    "created_at": "2021-09-01T12:30:00Z"
+  },
+  {
+    "customer_id": "CUST-016",
+    "first_name": "Peter",
+    "last_name": "Lee",
+    "email": "peter.lee@email.com",
+    "phone": "+1-555-116-2016",
+    "address": {
+      "street": "579 Hickory Ln",
+      "city": "Detroit",
+      "state": "MI",
+      "zip": "48201",
+      "country": "US"
+    },
+    "date_of_birth": "1982-07-08",
+    "account_balance": 22100.50,
+    "created_at": "2021-09-14T10:45:00Z"
+  },
+  {
+    "customer_id": "CUST-017",
+    "first_name": "Quinn",
+    "last_name": "Robinson",
+    "email": "quinn.robinson@email.com",
+    "phone": "+1-555-117-2017",
+    "address": {
+      "street": "680 Juniper Ave",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19101",
+      "country": "US"
+    },
+    "date_of_birth": "1990-05-26",
+    "account_balance": 6430.25,
+    "created_at": "2021-10-03T16:15:00Z"
+  },
+  {
+    "customer_id": "CUST-018",
+    "first_name": "Rachel",
+    "last_name": "Clark",
+    "email": "rachel.clark@email.com",
+    "phone": "+1-555-118-2018",
+    "address": {
+      "street": "791 Cypress Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95101",
+      "country": "US"
+    },
+    "date_of_birth": "1993-11-14",
+    "account_balance": 14560.00,
+    "created_at": "2021-10-20T09:00:00Z"
+  },
+  {
+    "customer_id": "CUST-019",
+    "first_name": "Samuel",
+    "last_name": "Lewis",
+    "email": "samuel.lewis@email.com",
+    "phone": "+1-555-119-2019",
+    "address": {
+      "street": "802 Linden Blvd",
+      "city": "Columbus",
+      "state": "OH",
+      "zip": "43201",
+      "country": "US"
+    },
+    "date_of_birth": "1984-02-19",
+    "account_balance": 37800.90,
+    "created_at": "2021-11-08T13:00:00Z"
+  },
+  {
+    "customer_id": "CUST-020",
+    "first_name": "Tina",
+    "last_name": "Walker",
+    "email": "tina.walker@email.com",
+    "phone": "+1-555-120-2020",
+    "address": {
+      "street": "913 Hawthorn Ct",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28201",
+      "country": "US"
+    },
+    "date_of_birth": "1998-06-30",
+    "account_balance": 990.60,
+    "created_at": "2021-11-25T15:30:00Z"
+  },
+  {
+    "customer_id": "CUST-021",
+    "first_name": "Uma",
+    "last_name": "Hall",
+    "email": "uma.hall@email.com",
+    "phone": "+1-555-121-2021",
+    "address": {
+      "street": "1024 Mulberry St",
+      "city": "Indianapolis",
+      "state": "IN",
+      "zip": "46201",
+      "country": "US"
+    },
+    "date_of_birth": "1991-04-11",
+    "account_balance": 4125.35,
+    "created_at": "2021-12-10T08:00:00Z"
+  },
+  {
+    "customer_id": "CUST-022",
+    "first_name": "Victor",
+    "last_name": "Young",
+    "email": "victor.young@email.com",
+    "phone": "+1-555-122-2022",
+    "address": {
+      "street": "1135 Beech Ave",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32201",
+      "country": "US"
+    },
+    "date_of_birth": "1979-08-27",
+    "account_balance": 61200.00,
+    "created_at": "2022-01-05T11:00:00Z"
+  },
+  {
+    "customer_id": "CUST-023",
+    "first_name": "Wendy",
+    "last_name": "Allen",
+    "email": "wendy.allen@email.com",
+    "phone": "+1-555-123-2023",
+    "address": {
+      "street": "1246 Dogwood Rd",
+      "city": "Memphis",
+      "state": "TN",
+      "zip": "38101",
+      "country": "US"
+    },
+    "date_of_birth": "1995-01-16",
+    "account_balance": 2890.70,
+    "created_at": "2022-01-22T14:20:00Z"
+  },
+  {
+    "customer_id": "CUST-024",
+    "first_name": "Xander",
+    "last_name": "Scott",
+    "email": "xander.scott@email.com",
+    "phone": "+1-555-124-2024",
+    "address": {
+      "street": "1357 Ironwood Way",
+      "city": "Baltimore",
+      "state": "MD",
+      "zip": "21201",
+      "country": "US"
+    },
+    "date_of_birth": "1986-10-04",
+    "account_balance": 18450.20,
+    "created_at": "2022-02-14T09:45:00Z"
+  },
+  {
+    "customer_id": "CUST-025",
+    "first_name": "Yara",
+    "last_name": "King",
+    "email": "yara.king@email.com",
+    "phone": "+1-555-125-2025",
+    "address": {
+      "street": "1468 Rosewood Blvd",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40201",
+      "country": "US"
+    },
+    "date_of_birth": "1999-07-23",
+    "account_balance": 530.80,
+    "created_at": "2022-03-01T16:30:00Z"
+  }
+]
